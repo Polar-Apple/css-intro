@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%; /* Prevent overflowing container */
+    margin: 0 auto;
+    text-align: center;
+    
+}
+html, body {
+    overflow-x: hidden;
+    max-width: 100%; /* Prevent overflowing container */
+    margin: 0 auto;
+    text-align: center;
+}
+.header {
+    background-color: #eaf6f2;
+    height: 100vh; 
+    
+}
+.container {
+    width: 100%;
+    max-width: 100%; /* Prevent overflowing container */
+    margin: 0 auto;
+    text-align: center;
+}
+ .container {  
+    /* display: flex;
+    justify-content: center;  */
+    font-family: "Sacramento", cursive;
+    h1 {
+        font-size: 5rem;
+        margin: 0px;
+    }
+    h3 {
+        font-size: 3rem;
+        display: inline-flex;
+        justify-content: center;
+        #a {
+            margin-right: 1rem;
+        }
+        span {
+            color: #0a4791;
+            font-family: "Dancing Script", cursive;
+        }
+    }
+} 
+
+ .mountain {
+    position: relative;
+    top:22vh;
+    display: flex;
+    justify-content: center;
+ }
+ .cloud-down {
+    position: relative;
+    top: 21vh;
+    left: -23vw;
+ }
+ .cloud-top {
+    width: 200px;
+    position: relative;
+    left: 15vw;
+    top: 15vh;
+ }
+ .text {
+    position: relative;
+    top: 21vh;
+ }
+ .profile {
+    background-color: #d7f4ea;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 10vh;
+    margin-top: 10vh;
+ }
+ .intro {
+    height: 30vh;
+    width: 35vw;
+    font-size: 1.5rem;
+    padding-top: 5vh;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 200;
+ }
+ @media (max-width: 1395px)
+ {
+    .middle-container {
+        height: 100vh;
+    }
+}
+ .skills {
+    img {
+        height: 200px;
+        padding-right: 0;
+        float: left;
+        padding-left: 30vw;
+    }
+   p {
+    height: 30vh;;
+    width: 30vw;
+    font-size: 2rem;
+    font-family: "Square Peg", cursive;
+    padding-top: 5vh;
+   }
+ }
+.lower-container > h2 {
+    color: #6cc0a1;
+    font-family: "Playwrite NL", cursive;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 7vh;
+    margin-top: 5vh;
+}
+.bottom-container {
+    h2 {
+        color: #6cc0a1;
+        font-family: "Playwrite NL", cursive;
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+    }
+    h3{
+        font-family: "Square Peg", cursive;
+        font-size: 2rem;
+        font-weight: 250;
+        margin-bottom: 5vh;
+    }
+    p {
+        width: 30vw;
+    }
+    button {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+} 
+
+.links{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    ul {
+        display: flex;
+    justify-content: center;
+    gap: 6vw;
+        li {
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+    a {
+        text-decoration: none;
+        font-weight: 400;
+        color: #495350;
+    }
+}
+.footer {
+    height: 15vh;
+    background-color: #a8afac;
+    p {
+        margin-bottom: 0;
+        color: white !important;
+    }
+    
+}
+hr.dots {
+    border: none; /* Remove default border */
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  hr.dots::before {
+    content: '...'; /* Adding three dots */
+    font-size: 24px; /* Adjust font size as needed */
+    letter-spacing: 10px; /* Space between the dots */
+    color: black; /* Adjust color as needed */
+  }
+  .dots{
+    padding-bottom: 5vh;
+  }
+
+
